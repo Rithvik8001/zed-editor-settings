@@ -1,0 +1,31 @@
+{
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false
+  },
+  "show_edit_predictions": false,
+  "ui_font_size": 15.3,
+  "buffer_font_size": 15.3,
+  "theme": {
+    "mode": "system",
+    "light": "One Light",
+    "dark": "Vercel Dark"
+  },
+  "buffer_font_family": "Liga SFMono Nerd Font",
+  "cursor_blink": false,
+  "cursor_shape": "bar",
+  "scrollbar": {
+    "axes": {
+      "vertical": false,
+      "horizontal": false
+    }
+  },
+  "git": {
+    "git_gutter": "hide",
+    "gutter_debounce": null,
+    "inline_blame": null,
+    "hunk_style": null
+  },
+  "buffer_font_weight": 100,
+  "soft_wrap": "editor_width"
+}
