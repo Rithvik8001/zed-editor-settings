@@ -1,70 +1,77 @@
 {
-  "buffer_line_height": "comfortable",
-  "outline_panel": {
-    "git_status": true
-  },
-  "status_bar": {
-    "experimental.show": false
-  },
-  "minimap": {
-    "show": "never"
-  },
-  "buffer_font_fallbacks": ["Monaco", "Courier New"],
-  "linked_edits": true,
-  "indent_guides": {
-    "enabled": true
-  },
-  "tabs": {
-    "file_icons": true,
-    "git_status": true
-  },
-  "tab_bar": {
-    "show": false
-  },
-  "show_whitespaces": "none",
-  "tab_size": 2,
-  "base_keymap": "VSCode",
-  "project_panel": {
-    "auto_fold_dirs": false,
-    "git_status": true,
-    "dock": "right"
-  },
+  "cli_default_open_behavior": "new_window",
+  "buffer_font_family": ".ZedMono",
   "icon_theme": {
-    "mode": "dark",
-    "light": "Zed (Default)",
-    "dark": "Zed (Default)"
+    "mode": "system",
+    "light": "Colored Zed Icons Theme Light",
+    "dark": "Colored Zed Icons Theme Dark",
   },
+  "semantic_tokens": "off",
+  "disable_ai": true,
   "telemetry": {
-    "diagnostics": false,
-    "metrics": false
+    "diagnostics": true,
+    "metrics": false,
+    "anthropic_retention": false,
   },
-  "show_edit_predictions": false,
-  "ui_font_size": 14.6,
-  "buffer_font_size": 15.5,
-  "theme": {
-    "mode": "dark",
-    "light": "Vercel Dark",
-    "dark": "Vercel Dark"
+  "session": {
+    "trust_all_worktrees": true,
   },
-  "cursor_blink": false,
-  "cursor_shape": "block",
-  "scrollbar": {
-    "axes": {
-      "vertical": false,
-      "horizontal": false
-    }
+  "terminal": {
+    "font_family": ".ZedMono",
+    "font_size": 16,
+    "font_fallbacks": ["MesloLGS Nerd Font Mono"],
+    "dock": "right",
+  },
+  "project_panel": {
+    "git_status": true,
+    "auto_fold_dirs": false,
   },
   "git": {
     "git_gutter": "hide",
-    "gutter_debounce": null,
-    "inline_blame": null,
-    "hunk_style": null
+  },
+  "outline_panel": {
+    "git_status": true,
+  },
+  "base_keymap": "VSCode",
+  "status_bar": {
+    "experimental.show": true,
+  },
+  "tab_bar": {
+    "show": true,
+  },
+  "tabs": {
+    "git_status": true,
+  },
+  "minimap": {
+    "show": "never",
+  },
+
+  "scrollbar": {
+    "git_diff": false,
+    "axes": {
+      "horizontal": false,
+      "vertical": false,
+    },
+  },
+  "cursor_shape": "block",
+  "cursor_blink": false,
+  "linked_edits": true,
+  "show_whitespaces": "none",
+  "format_on_save": "on",
+  "indent_guides": {
+    "enabled": true,
   },
   "soft_wrap": "editor_width",
-  "terminal": {
-    "font_fallbacks": ["Monaco", "Courier New", "GeistMono Nerd Font"],
-    "font_size": 15.0
+  "tab_size": 2,
+  "ui_font_size": 14.5,
+  "ui_font_family": ".ZedMono",
+  "buffer_font_size": 17.2,
+  "theme": {
+    "mode": "system",
+    "light": "One Light",
+    "dark": "CodeSandbox",
   },
+  "ui_font_weight": 100,
   "buffer_font_weight": 100,
-  "buffer_font_family": ".ZedMono"
+  "buffer_line_height": "comfortable",
 }
